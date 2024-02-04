@@ -49,7 +49,7 @@
       "body": [
         {
           "expression": {
-            "expr": "(0 + (1.0 * ((x) ** 1))) + (2.0 * ((x) ** 3))"
+            "expr": "(x) - (((x) ** 3) * 0.3333333333333333)"
           },
           "result_var": {
             "name": "tanh_x"
@@ -99,13 +99,13 @@
           "function": "allocate_num",
           "positional_args": [
             {
-              "expr": "2"
+              "expr": "1"
             },
             {
               "expr": "False"
             },
             {
-              "expr": "2"
+              "expr": "1"
             },
             {
               "name": "x"
@@ -124,7 +124,7 @@
           "function": "compute_tanh",
           "positional_args": [
             {
-              "expr": "2"
+              "expr": "1"
             },
             {
               "name": "x"
